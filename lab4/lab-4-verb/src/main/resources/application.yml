@@ -1,0 +1,7 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+words: ran,knew,had,saw,bought
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
