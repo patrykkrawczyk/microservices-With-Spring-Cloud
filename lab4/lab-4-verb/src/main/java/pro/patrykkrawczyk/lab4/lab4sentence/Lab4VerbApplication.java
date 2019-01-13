@@ -1,4 +1,4 @@
-package pro.patrykkrawczyk.lab4.lab4verb;
+package pro.patrykkrawczyk.lab4.lab4sentence;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
