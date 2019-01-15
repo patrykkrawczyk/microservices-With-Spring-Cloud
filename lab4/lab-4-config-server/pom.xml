@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pro.patrykkrawczyk.lab4</groupId>
-    <artifactId>lab-4-verb</artifactId>
+    <artifactId>lab-4-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lab-4-verb</name>
+    <name>lab-4-config-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -21,20 +21,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
 

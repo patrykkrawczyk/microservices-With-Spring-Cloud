@@ -1,7 +1,1 @@
-server:
-  port: ${PORT:${SERVER_PORT:0}}
 words: reasonable,leaky,suspicious,ordinary,unlikely
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
