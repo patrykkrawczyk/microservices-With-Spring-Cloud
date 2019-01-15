@@ -4,6 +4,6 @@ spring:
       server:
         git:
           uri: https://github.com/patrykkrawczyk/udemy-Microservices-with-Spring-Cloud
-          search-paths: ConfigData
+          search-paths: ConfigData/lab3
 server:
   port: 8001
