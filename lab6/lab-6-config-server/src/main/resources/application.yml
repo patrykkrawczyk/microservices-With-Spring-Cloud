@@ -4,6 +4,6 @@ spring:
       server:
         git:
           uri: https://github.com/patrykkrawczyk/microservices-with-Spring-Cloud
-          search-paths: ConfigData/lab4
+          search-paths: ConfigData/lab6
 server:
   port: 8001

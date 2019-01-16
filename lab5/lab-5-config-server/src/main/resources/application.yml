@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/patrykkrawczyk/udemy-Microservices-with-Spring-Cloud
+          uri: https://github.com/patrykkrawczyk/microservices-with-Spring-Cloud
           search-paths: ConfigData/lab5
 server:
   port: 8001

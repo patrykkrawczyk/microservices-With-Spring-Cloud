@@ -42,10 +42,3 @@ spring:
   application:
     name: lab-6-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
-
----
-spring:
-  profiles: cold-noun
-  application:
-    name: lab-6-noun
-words: icicle,refrigerator,blizzard,snowball
