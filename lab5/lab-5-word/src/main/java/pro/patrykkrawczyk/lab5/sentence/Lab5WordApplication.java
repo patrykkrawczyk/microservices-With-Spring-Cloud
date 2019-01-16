@@ -1,4 +1,4 @@
-package pro.patrykkrawczyk.lab5.word;
+package pro.patrykkrawczyk.lab5.sentence;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package pro.patrykkrawczyk.lab5.word;
+package pro.patrykkrawczyk.lab5.sentence;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

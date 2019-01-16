@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LuckyWordController {
 
-    @Value("${lucky-word}") String luckyWord;
+    @Value("${lucky-sentence}") String luckyWord;
 
     @GetMapping("/lucky-word")
     public String showLuckyWord() {
-        return String.format("The lucky word is: %s", luckyWord);
+        return String.format("The lucky sentence is: %s", luckyWord);
     }
 }
