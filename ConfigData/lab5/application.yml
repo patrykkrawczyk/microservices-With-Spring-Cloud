@@ -4,6 +4,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+# Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 ---
 spring:
