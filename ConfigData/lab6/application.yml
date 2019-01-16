@@ -12,40 +12,40 @@ eureka:
 spring:
   profiles: subject
   application:
-    name: lab6-subject
+    name: lab-6-subject
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
   application:
-    name: lab6-verb
+    name: lab-6-verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
   application:
-    name: lab6-article
+    name: lab-6-article
 words: a,the
 
 ---
 spring:
   profiles: adjective
   application:
-    name: lab6-adjective
+    name: lab-6-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
   application:
-    name: lab6-noun
+    name: lab-6-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
 spring:
   profiles: cold-noun
   application:
-    name: lab6-noun
+    name: lab-6-noun
 words: icicle,refrigerator,blizzard,snowball
