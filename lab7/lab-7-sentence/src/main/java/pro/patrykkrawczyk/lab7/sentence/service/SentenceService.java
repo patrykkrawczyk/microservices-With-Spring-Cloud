@@ -12,26 +12,14 @@ import pro.patrykkrawczyk.lab7.sentence.dao.VerbClient;
 public class SentenceService {
 
     @Autowired
-    private AdjectiveClient adjectiveClient;
-
-    @Autowired
-    private ArticleClient articleClient;
-
-    @Autowired
-    private NounClient nounClient;
-
-    @Autowired
-    private SubjectClient subjectClient;
-
-    @Autowired
-    private VerbClient verbClient;
+    private WordService wordService;
 
     public String buildSentence() {
         return String.format("%s %s %s %s %s.",
-                subjectClient.getWord().toString(),
-                verbClient.getWord().toString(),
-                articleClient.getWord().toString(),
-                adjectiveClient.getWord().toString(),
-                nounClient.getWord().toString());
+                wordService.getSubject().toString(),
+                wordService.getVerb().toString(),
+                wordService.getArticle().toString(),
+                wordService.getAdjective().toString(),
+                wordService.getNoun().toString());
     }
 }
