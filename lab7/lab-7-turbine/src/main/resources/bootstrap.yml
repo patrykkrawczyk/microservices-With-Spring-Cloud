@@ -1,0 +1,8 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: lab-7-turbine
+  cloud:
+    config:
+      uri: http://localhost:8001
