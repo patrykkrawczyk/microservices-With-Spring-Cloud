@@ -1,8 +1,9 @@
-package pro.patrykkrawczyk.lab6.word;
+package pro.patrykkrawczyk.lab6.word.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import pro.patrykkrawczyk.lab6.word.domain.Word;
 
 import java.util.Random;
 
@@ -14,7 +15,8 @@ public class WordController {
     @Value("${words}") String[] words;
 
     @GetMapping
-    public String getWord() {
-        return words[random.nextInt(words.length)];
+    public Word getWord() {
+        String word = words[random.nextInt(words.length)];
+        return new Word(word);
     }
 }
