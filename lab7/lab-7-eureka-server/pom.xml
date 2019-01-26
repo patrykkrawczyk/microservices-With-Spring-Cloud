@@ -8,7 +8,7 @@
         <version>2.1.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>pro.patrykkrawczyk.lab6</groupId>
+    <groupId>pro.patrykkrawczyk.lab7</groupId>
     <artifactId>lab-7-eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lab-7-eureka-server</name>
