@@ -1,0 +1,6 @@
+POST http://localhost:8001/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+###
+

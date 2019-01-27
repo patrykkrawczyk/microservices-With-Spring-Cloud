@@ -7,3 +7,8 @@ spring:
           search-paths: ConfigData/lab8
 server:
   port: 8001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
