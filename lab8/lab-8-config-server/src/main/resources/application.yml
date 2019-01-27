@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/patrykkrawczyk/microservices-with-Spring-Cloud
+          search-paths: ConfigData/lab8
+server:
+  port: 8001
